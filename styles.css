@@ -1,0 +1,98 @@
+/* basic styles for the body */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* basic styles for the header */
+header {
+    width: 100%;
+    margin: auto 0;
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+
+/* basic styles for the main section */
+main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* styles for the form and its child elements */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+label {
+    margin: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.number{
+    display: inline-block;
+    width: 80%;
+}
+
+.repos{
+    width: 50%;
+    display: inline-block;
+}
+
+.forks{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 75.662px;
+    left: 400px;
+}
+
+.org{
+    width: 90%;
+}

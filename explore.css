@@ -1,0 +1,82 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Styles for the unordered list */
+ul {
+  width: 25%;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  font-family: sans-serif;
+  background-color: #333;
+  color: #ccc;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Styles for the list items */
+li {
+  margin: 20px 0;
+}
+
+/* Styles for the links */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #5C6AC4;
+}
+
+/* Styles for the nested list */
+ol {
+  padding-left: 20px;
+  display: none;
+  font-size: 16px;
+  margin: auto;
+  font-family: sans-serif;
+  background-color:#ccc;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 1;
+}
+
+/* Styles for the nested list items */
+ol li {
+  margin: 10px 0;
+}
+
+/* Styles for the parent list item when hovering */
+li:hover > ol {
+  display: block;
+}
+
+/* Styles for the arrow icon */
+.arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ccc;
+  position: absolute;
+  top: 40%;
+  right: 10px;
+}
+
+/* Styles for the arrow icon when the nested list is open */
+li:hover > .arrow {
+  border-top: 8px solid #ccc;
+  border-bottom: none;
+  top: 45%;
+}
